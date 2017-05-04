@@ -34,3 +34,5 @@ This is the code repository for the paper **Sub-Gibbs Sampling: a New Strategy f
    solver: 208 = subsampling alias
 
    solver: 210 = subsampling FLDA-d
+
+4. Example shell script files are under *cmd* folder.
