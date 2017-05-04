@@ -35,4 +35,6 @@ This is the code repository for the paper **Sub-Gibbs Sampling: a New Strategy f
 
    solver: 210 = subsampling FLDA-d
 
-4. Example shell script files are under *cmd* folder.
+4. Example shell script files are under *cmd* folder. Remember to change data path before running the script file.
+
+5. Data. We use public data set (NIPS, Enron, NYTimes, PubMed) from UCI reposiroty. Please send us an email for the cleaned data download link.
