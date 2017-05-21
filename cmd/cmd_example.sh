@@ -13,6 +13,7 @@ for Znum in 10 # change number of topics here
 do
     for m in 0 1 8 9 # loop through all comparison method
     do
+        # IMPORTANT: change the data path to the local data path on your machine.
         sampler_id=/data/chu/lda-data/nomad_lda_data/output/$DATA_SET-$m-Z$Znum-${DATE}
         ../splda $Znum $iteration /data/chu/lda-data/nomad_lda_data/$DATA_SET $m $sampler_id
     done
