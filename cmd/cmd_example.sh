@@ -14,6 +14,7 @@ do
     for m in 0 1 8 9 # loop through all comparison method
     do
         # IMPORTANT: change the data path to the local data path on your machine.
+        # output log and parameters are also writtent to this path.
         sampler_id=/data/chu/lda-data/nomad_lda_data/output/$DATA_SET-$m-Z$Znum-${DATE}
         ../splda $Znum $iteration /data/chu/lda-data/nomad_lda_data/$DATA_SET $m $sampler_id
     done
